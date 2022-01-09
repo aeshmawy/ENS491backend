@@ -57,7 +57,7 @@ var User =  require("../Schema/User");
     }
     else
     {
-      return res.status(400).send("Wrong Password");
+      return res.status(401).send("Wrong Password");
     }
   }
   else
